@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898397436556",
+    "project_id": "blogbuster-61a41",
+    "storage_bucket": "blogbuster-61a41.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898397436556:android:c4f0278c90ba90feb719a9",
+        "android_client_info": {
+          "package_name": "com.example.blogbuster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP5mZNffQy7m57tkeQqFI6u8wKBFGcH1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
