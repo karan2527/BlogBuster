@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'create_blog.dart'; // Import the file where CreateBlog is defined
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -32,13 +33,18 @@ class _HomePageState extends State<HomePage> {
         elevation: 0.0,
       ),
       body: Container(),
-      floatingActionButton: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          FloatingActionButton(onPressed: (){},
-          child: Icon(Icons.add),
-          )
-        ],
+      floatingActionButton: Container(
+        padding: EdgeInsets.symmetric(vertical: 20),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            FloatingActionButton(onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder:(context) => CreateBlog()));
+            },
+            child: Icon(Icons.add),
+            )
+          ],
+        ),
       ),
     );
   }
