@@ -59,7 +59,7 @@ class _CreateBlogState extends State<CreateBlog> {
                     },
                   ),
                   TextField(
-                    decoration: InputDecoration(hintText: "Desc"),
+                    decoration: InputDecoration(hintText: "Discription"),
                     onChanged: (val) {
                       desc = val;
                     },
