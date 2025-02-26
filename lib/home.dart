@@ -13,6 +13,7 @@ class _HomePageState extends State<HomePage> {
     return  Scaffold(
       appBar: AppBar(
         title: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
               "Blog",
@@ -27,6 +28,8 @@ class _HomePageState extends State<HomePage> {
 
           ],
         ),
+        backgroundColor: Colors.transparent,
+        elevation: 0.0,
       ),
     );
   }
